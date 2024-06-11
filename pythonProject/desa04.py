@@ -1,0 +1,5 @@
+al = input("Digite qualquer coisa: ")
+print('Qual o tipo de dado:', type(al))
+print(' É alfanumerico?', al.isalnum())
+print(' É número?', al.isnumeric())
+print(' É letra?', al.isalpha())
